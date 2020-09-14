@@ -1,8 +1,8 @@
 openings = [
 	{
-		"link": "https://wemusic.vercel.app/The Adventure of the Copper Beeches - Sherlock - Arthur Conan.mp3",
+		"link": "https://wemusic.vercel.app/music/The Adventure of the Copper Beeches - Sherlock - Arthur Conan.mp3",
 		"name": "The Adventure of the Copper Beeches - Sherlock - Arthur Conan",
-		"img": "https://wemusic.vercel.app/The Adventure of the Copper Beeches - Sherlock - Arthur Conan.jpg"
+		"img": "https://wemusic.vercel.app/thumbnail/The Adventure of the Copper Beeches - Sherlock - Arthur Conan.jpg"
 	},
 	
 ]
