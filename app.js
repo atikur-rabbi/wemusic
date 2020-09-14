@@ -7,9 +7,14 @@ app.get('/api', (req, res) => {
     res.send('Hello World!')
 })
 
-
-app.use(express.static(__dirname + '/public'));
+ var hourMs = 1000*60*60;
+//app.use(express.static(__dirname + '/public'));
 app.use('/music', serveIndex(__dirname + '/public/music'));
-app.use('/music', express.static('files'));
+
+
+ app.use(express.static(__dirname + '/public', { maxAge: hourMs }));
+
+
+
 
 module.exports = app
