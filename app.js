@@ -10,5 +10,6 @@ app.get('/api', (req, res) => {
 
 app.use(express.static(__dirname + '/public'));
 app.use('/music', serveIndex(__dirname + '/public/music'));
+app.use('/music', express.static('files'));
 
 module.exports = app
